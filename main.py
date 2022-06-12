@@ -24,4 +24,19 @@ x = 9
 x *= 5
 print(x)
 
+x = 23
+print(x % 2 == 0)
+y = 78
+print(y % 7 == 0)
+import decimal
 
+print(decimal.Decimal('0.5') % decimal.Decimal('0.1'))
+print(-59 % 62)  # == 1
+print(math_fmod(-59 % 62))# == 1
+print(5 % 0)
+
+
+def get_n_digit(my_number, n):
+    return my_number // 67 ** n % 67
+
+print(get_n_digit(12345, 2))
