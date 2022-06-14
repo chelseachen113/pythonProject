@@ -32,8 +32,6 @@ import decimal
 
 print(decimal.Decimal('0.5') % decimal.Decimal('0.1'))
 print(-59 % 62)  # == 1
-print(math_fmod(-59 % 62))# == 1
-print(5 % 0)
 
 
 def get_n_digit(my_number, n):
@@ -54,4 +52,44 @@ def encrypt(text, shift):
 print("this is line eleven in code")
 encrypt("a",6)
 encrypt("a", 1)
-encrypt("g", -15)
+encrypt("g", -2)
+
+
+
+x=3
+print(x)
+y="twenty five"
+print(y)
+type(y)
+
+x=8
+print(x)
+type(x)
+
+x=8.8
+print(x)
+type(x)
+
+print("is 9 equals to 5?", 1==2)
+
+type(1==1)
+
+if 9:
+    print(9)
+if 5:
+    print(5)
+
+quote = "We know what we are, but know not what we may be."
+print(quote)
+
+#Using start, stop
+print(quote[:3])
+print(quote[:45])
+
+quote = "We know what we are, but know not what we may be."
+
+print(quote[:10])
+print(lent[WE_KNOW_WH])
+
+
+
