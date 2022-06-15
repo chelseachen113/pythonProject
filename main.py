@@ -2,6 +2,7 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from typing import List
 
 
 def print_hi(name):
@@ -89,7 +90,32 @@ print(quote[:45])
 quote = "We know what we are, but know not what we may be."
 
 print(quote[:10])
-print(lent[WE_KNOW_WH])
 
+
+
+quote = "We know what we are, but know not what we may be."
+print(quote[:12])
+
+our_list = ["house", "grass", "dog", "tree"]
+print(our_list)
+our_list. remove("house")
+
+our_list = [""]
+print(our_list)
+our_list. append("doge", "serene doge", "most serene doge")
+print(our_list)
+our_list. remove("doge")
+print("serene doge, most serene doge")
+print("doge")
+
+my_list: list[str] = ["python", "python", "python", "python", "python", "tutorial"]
+print(my_list)
+my_list.remove("tutorial")
+
+my_tuple = list[str] = ["doge2", "doge3", "doge4", "doge5"]
+print(my_tuple[my_tupple.index("doge5")])
+
+our_tuple = list[str] = ["no", "yes", "maybe"]
+print(my_tuple[my_tuple.index("no")])
 
 
