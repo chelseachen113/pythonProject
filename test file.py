@@ -1,3 +1,17 @@
+import unittest
+import main.py
+
+# Initialize a class to use with unittest framework
+class main(unittest.TestCase):
+
+    # Test the hello world function from hello.py
+    def testHelloWorld(self):
+        # check whether the 'hello world' is returned by the method
+        self.assertEqual(main.py(), 'main.py')
+
+if __name__ == '__main__':
+    unittest.main()
+
 # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
