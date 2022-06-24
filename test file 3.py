@@ -23,12 +23,37 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
+x=3
+print(x)
+y="twenty five"
+print(y)
+type(y)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+x=8
+print(x)
+type(x)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+x=8.8
+print(x)
+type(x)
 
-print("Hello world")
+print("is 9 equals to 5?", 1==2)
+
+type(1==1)
+
+if 9:
+    print(9)
+if 5:
+    print(5)
+
+quote = "We know what we are, but know not what we may be."
+print(quote)
+
+#Using start, stop
+print(quote[:3])
+print(quote[:45])
+
+quote = "We know what we are, but know not what we may be."
+
+print(quote[:10])
 

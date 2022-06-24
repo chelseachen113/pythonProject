@@ -30,5 +30,29 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-print("Hello world")
+
+my_1st = [7,3,9,1]
+my_tup = (7,3,9,1)
+
+my_1st[0] = 5
+my_tup[0] = 5
+
+list5 = [5]
+list7 = [5]
+
+print(list5 is list7)
+print(list5 == list7)
+
+if 1 == 1:
+    print( "1 equals 1" )
+
+if 1 == 2:
+    print( "mk" )
+
+print( "material gurl" )
+
+x= 5
+y= 3
+if x < 5:
+    print("doge is superior")
 

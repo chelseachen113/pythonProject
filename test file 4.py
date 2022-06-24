@@ -29,6 +29,38 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+quote = "We know what we are, but know not what we may be."
+print(quote[:12])
 
-print("Hello world")
+our_list = ["house", "grass", "dog", "tree"]
+print(our_list)
+our_list. remove("house")
 
+our_list = [""]
+print(our_list)
+our_list. append("doge")
+our_list. append("serene doge")
+our_list. append("most serene doge")
+print(our_list)
+our_list. remove("doge")
+print("serene doge, most serene doge")
+print("doge")
+
+my_list: list[str] = ["python", "python", "python", "python", "python", "tutorial"]
+print(my_list)
+my_list.remove("tutorial")
+
+my_set = {"n", "o", "h"}
+print(my_set)
+
+doge_set = {"he", "hello", "hell"}
+print(doge_set)
+
+doge_set.discard("hell")
+print(doge_set)
+
+egg_dog_set = {"k", "ok", "okay"}
+doge_set = {"he", "hello", "hell"}
+
+dif_set = egg_dog_set.difference(doge_set)
+print(dif_set)

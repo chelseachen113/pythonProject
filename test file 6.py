@@ -30,5 +30,45 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-print("Hello world")
+if True:
+    pass
 
+print('1234567890')
+
+x=6
+if x > 5:
+    print('slay queen')
+
+y=5
+if y > 6:
+    print('YAS GURL')
+elif y < 7:
+    print('car max car insurance')
+else:
+    print('GROCERY MAGGOT BARNS AND MARGRET')
+
+x = "AeA DANCING IN SEPTEMBER" if 4 > 2 else "HeLo"
+print(x)
+
+my_list = [1, 2, 3, 4]
+y = my_list if 2 in my_list else []
+print(y)
+
+z = my_list if 7 in my_list else []
+print(z)
+
+my_list = [1, 2, 3, 4]
+
+z = my_list if 7 in my_list else []
+
+if 7 in my_list:
+    x = my_list
+else:
+    x = [SHUASHEE]
+
+print(x)
+print(x == z)
+
+m= 2
+while x < 20:
+    print(" james charles ")

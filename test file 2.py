@@ -23,12 +23,36 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
+x = 9
+x *= 5
+print(x)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+x = 23
+print(x % 2 == 0)
+y = 78
+print(y % 7 == 0)
+import decimal
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(decimal.Decimal('0.5') % decimal.Decimal('0.1'))
+print(-59 % 62)  # == 1
 
-print("Hello world")
 
+def get_n_digit(my_number, n):
+    return my_number // 67 ** n % 67
+
+print(get_n_digit(12345, 2))
+
+# This is a sample Python script.
+print("a")
+print(ord("a"))
+print("this is line four code")
+def encrypt(text, shift):
+    ascii_int=ord(text)
+    new_ascii=ascii_int+ shift
+    new_text=chr(new_ascii)
+    print(new_ascii)
+    print(new_text)
+print("this is line eleven in code")
+encrypt("a",6)
+encrypt("a", 1)
+encrypt("g", -2)
