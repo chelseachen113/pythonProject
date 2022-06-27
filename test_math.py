@@ -19,8 +19,14 @@ class TestMath(TestCase):
         quotient = dividend / divisor
         self.assertEqual(8, quotient)
 
-    def test_modulo_with_even_number_return(self):
+    def test_8_modulo_1_equals_0(self):
         dividend = 8
         divisor = 1
         remainder = dividend % divisor
         self.assertEqual(0, remainder)
+
+    def test_8_modulo_3_equals_2(self):
+        dividend = 8
+        divisor = 3
+        remainder = dividend % divisor
+        self.assertEqual(2, remainder)

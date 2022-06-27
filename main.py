@@ -6,15 +6,6 @@
 print("hello world")
 
 
-
-x = 9
-x *= 5
-print(x)
-
-x = 23
-print(x % 2 == 0)
-y = 78
-print(y % 7 == 0)
 import decimal
 
 print(decimal.Decimal('0.5') % decimal.Decimal('0.1'))
