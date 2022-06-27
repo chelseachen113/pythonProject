@@ -13,3 +13,9 @@ class TestLists(TestCase):
         is_item_in_list = "doge" in our_list
         self.assertEqual(False, is_item_in_list)
 
+
+    def test_is_boomer_in_set_after_discarding_boomer_equals_false(self):
+        boomer_set = {"boomer", "boomest", "baboom"}
+        boomer_set.discard("boomer")
+        is_item_in_set = "boomer" in boomer_set
+        self.assertEqual(False, is_item_in_set)

@@ -6,10 +6,6 @@
 print("hello world")
 
 
-my_list: list[str] = ["python", "python", "python", "python", "python", "tutorial"]
-print(my_list)
-my_list.remove("tutorial")
-
 my_set = {"n", "o", "h"}
 print(my_set)
 
