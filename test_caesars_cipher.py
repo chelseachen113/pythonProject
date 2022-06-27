@@ -8,7 +8,7 @@ def encrypt(text, shift):
     return new_text
 
 
-class TestCeasarsCipher(TestCase):
+class TestCaesarsCipher(TestCase):
 
     def test_a_shifted_by_1_equals_b(self):
         letter = "a"
