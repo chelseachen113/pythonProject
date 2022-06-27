@@ -43,3 +43,14 @@ class TestMath(TestCase):
     def test_is_3_less_than_2_equal_false(self):
         is_three_less_than_two = 3 < 2
         self.assertEqual(False, is_three_less_than_two)
+
+    # 1 Write a test that:
+    # 1. multiply two integer variables
+    # 2. store the result to an integer variable
+    # 3. asserts the output is 45
+
+    def test_three_multiply_two_variables_equals_forty_five(self):
+        int_nine = 9
+        int_five = 5
+        int_total = (int_five * int_nine)
+        self.assertEqual( 45, int_total )
