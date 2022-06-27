@@ -185,7 +185,7 @@ print(x)
 print(x == z)
 
 m= 2
-while x < 20:
+while len(x) < 20:
     print(" james charles ")
 
 
