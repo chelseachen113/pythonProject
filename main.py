@@ -5,8 +5,7 @@
 
 print("hello world")
 
-y = 2
-print(y % 6)
+
 
 x = 9
 x *= 5
