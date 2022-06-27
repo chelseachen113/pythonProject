@@ -5,9 +5,8 @@ class TestMath(TestCase):
 
     # test naming format
     # def test_scenario_equals_value
+    #   self.assertEqual(expected_value, actual_value)
 
-    # example test
-    # def test_two_minus_two_equals_zero
     def test_two_plus_2_equals_4(self):
         int_x = 2
         int_y = 2
