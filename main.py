@@ -233,8 +233,8 @@ print(a)
 def my_func():
     return 4,6,8
 
-b = my_func():
-    print(b)
+b = my_func()
+print(b)
 
 
 
