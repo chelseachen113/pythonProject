@@ -29,10 +29,10 @@ class TestMath(TestCase):
         self.assertEqual(2, int_remainder)
 
     def test_0_5_modulus_0_1_equals_0_0(self):
-        dbl_dividend = decimal.Decimal('0.5')
-        dbl_divisor = decimal.Decimal('0.1')
-        dbl_remainder = dbl_dividend % dbl_divisor
-        self.assertEqual(0.0, dbl_remainder)
+        flt_dividend = decimal.Decimal('0.5')
+        flt_divisor = decimal.Decimal('0.1')
+        flt_remainder = flt_dividend % flt_divisor
+        self.assertEqual(0.0, flt_remainder)
 
     def test_negative59_modulus_62_equals_3(self):
         int_dividend = -59
