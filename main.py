@@ -6,20 +6,6 @@
 print("hello world")
 
 
-our_list = ["house", "grass", "dog", "tree"]
-print(our_list)
-our_list. remove("house")
-
-our_list = [""]
-print(our_list)
-our_list. append("doge")
-our_list. append("serene doge")
-our_list. append("most serene doge")
-print(our_list)
-our_list. remove("doge")
-print("serene doge, most serene doge")
-print("doge")
-
 my_list: list[str] = ["python", "python", "python", "python", "python", "tutorial"]
 print(my_list)
 my_list.remove("tutorial")
