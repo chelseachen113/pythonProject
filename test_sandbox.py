@@ -8,5 +8,5 @@ from unittest import TestCase
 class TestSandbox(TestCase):
 
     def test_two_equals_two(self):
-        number = 2
-        self.assertEqual(2, number)
+        int_number = 2
+        self.assertEqual(2, int_number)

@@ -1,29 +1,29 @@
 from unittest import TestCase
 
 
-def encrypt(text, shift):
-    ascii_int = ord(text)
-    new_ascii = ascii_int + shift
-    new_text = chr(new_ascii)
-    return new_text
+def encrypt(str_value, int_shift):
+    int_ascii = ord(str_value)
+    int_new_ascii = int_ascii + int_shift
+    str_new_value = chr(int_new_ascii)
+    return str_new_value
 
 
 class TestCaesarsCipher(TestCase):
 
     def test_a_shifted_by_1_equals_b(self):
-        letter = "a"
-        shift_amount = 1
-        new_letter = encrypt(letter, shift_amount)
-        self.assertEqual("b", new_letter)
+        str_letter = "a"
+        int_shift_amount = 1
+        str_new_letter = encrypt(str_letter, int_shift_amount)
+        self.assertEqual("b", str_new_letter)
 
     def test_a_shifted_by_6_equals_g(self):
-        letter = "a"
-        shift_amount = 6
-        new_letter = encrypt(letter, shift_amount)
-        self.assertEqual("g", new_letter)
+        str_letter = "a"
+        int_shift_amount = 6
+        str_new_letter = encrypt(str_letter, int_shift_amount)
+        self.assertEqual("g", str_new_letter)
 
     def test_g_shifted_by_negative_1_equals_f(self):
-        letter = "g"
-        shift_amount = -1
-        new_letter = encrypt(letter, shift_amount)
-        self.assertEqual("f", new_letter)
+        str_letter = "g"
+        int_shift_amount = -1
+        str_new_letter = encrypt(str_letter, int_shift_amount)
+        self.assertEqual("f", str_new_letter)
