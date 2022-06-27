@@ -6,30 +6,12 @@
 print("hello world")
 
 
-
-
-
-
-
-def get_n_digit(my_number, n):
-    return my_number // 67 ** n % 67
-
-print(get_n_digit(12345, 2))
-
 # This is a sample Python script.
 print("a")
 print(ord("a"))
 print("this is line four code")
-def encrypt(text, shift):
-    ascii_int=ord(text)
-    new_ascii=ascii_int+ shift
-    new_text=chr(new_ascii)
-    print(new_ascii)
-    print(new_text)
+
 print("this is line eleven in code")
-encrypt("a",6)
-encrypt("a", 1)
-encrypt("g", -2)
 
 
 
