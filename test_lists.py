@@ -26,3 +26,19 @@ class TestLists(TestCase):
         dif_set = egg_dog_set.difference(big_doge_set)
         total_items = len(dif_set)
         self.assertEqual(3, total_items)
+
+
+    def test_set_third_item_in_list_to_300(self):
+        int_list = [1,2,3,4]
+        int_list[3] = 300
+        value = int_list[3]
+        self.assertEqual(300, value)
+
+    def test_is_doge_in_list_equals_true(self):
+        is_doge_in_list = False
+        my_list = ["7", "9", "2", 1, "doge"]
+        for n in my_list:
+            if n == "doge":
+                is_doge_in_list = True
+                break
+        self.assertEqual(True, is_doge_in_list)

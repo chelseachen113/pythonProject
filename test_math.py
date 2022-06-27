@@ -43,3 +43,6 @@ class TestMath(TestCase):
         remainder = dividend % divisor
         self.assertEqual(3, remainder)
 
+    def test_is_3_less_than_2_equal_false(self):
+        is_three_less_than_two = 3 < 2
+        self.assertEqual(False, is_three_less_than_two)
