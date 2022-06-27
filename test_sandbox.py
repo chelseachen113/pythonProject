@@ -16,7 +16,11 @@ class TestSandbox(TestCase):
     # 2. store the result to an integer variable
     # 3. asserts the output is 45
 
-
+    def test_three_doge(self):
+        int_variable = 9
+        int_variable2 = 5
+        total=(int_variable * int_variable2)
+        self.assertEqual(45, total)
 
 
     # 2 Write a test that:

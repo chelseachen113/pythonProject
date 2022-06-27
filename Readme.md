@@ -17,7 +17,7 @@ This is Chelsea's python project for exploration
 
 ### Variable Naming
 1. start with lowercase letter, use _ in between words
-2. use full words and avoid abbreviation
+2. Useful words and avoid abbreviation
 3. use the modified hungarian notation below
 4. 
 ##### Modified hungarian notation
@@ -40,8 +40,9 @@ https://realpython.com/python-data-types/
 ### Test Naming
 1. Follow format below
 2. def test_scenario_equals_value
-
+3. example: def test_x_equals_seven
 
 ### Assertion Format
 1. use self.assertEqual with a hard coded value as first argument and a variable as the second
-2. example self.assertEqual("2", actual_value)
+2. example self.assertEqual("2",str_actual_value)
+3. example2: self.assertEqual(5,int_value)
