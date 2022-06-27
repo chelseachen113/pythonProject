@@ -6,54 +6,6 @@
 print("hello world")
 
 
-# This is a sample Python script.
-print("a")
-print(ord("a"))
-print("this is line four code")
-
-print("this is line eleven in code")
-
-
-
-x=3
-print(x)
-y="twenty five"
-print(y)
-type(y)
-
-x=8
-print(x)
-type(x)
-
-x=8.8
-print(x)
-type(x)
-
-print("is 9 equals to 5?", 1==2)
-
-type(1==1)
-
-if 9:
-    print(9)
-if 5:
-    print(5)
-
-quote = "We know what we are, but know not what we may be."
-print(quote)
-
-#Using start, stop
-print(quote[:3])
-print(quote[:45])
-
-quote = "We know what we are, but know not what we may be."
-
-print(quote[:10])
-
-
-
-quote = "We know what we are, but know not what we may be."
-print(quote[:12])
-
 our_list = ["house", "grass", "dog", "tree"]
 print(our_list)
 our_list. remove("house")

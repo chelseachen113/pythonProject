@@ -1,10 +1,12 @@
 from unittest import TestCase
 
+
 def encrypt(text, shift):
     ascii_int = ord(text)
     new_ascii = ascii_int + shift
     new_text = chr(new_ascii)
     return new_text
+
 
 class TestCeasarsCipher(TestCase):
 
@@ -25,6 +27,3 @@ class TestCeasarsCipher(TestCase):
         shift_amount = -1
         new_letter = encrypt(letter, shift_amount)
         self.assertEqual("f", new_letter)
-
-
-
