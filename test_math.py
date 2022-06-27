@@ -1,5 +1,5 @@
 from unittest import TestCase
-
+import decimal
 
 class TestMath(TestCase):
 
@@ -30,3 +30,15 @@ class TestMath(TestCase):
         divisor = 3
         remainder = dividend % divisor
         self.assertEqual(2, remainder)
+
+    def test_0_5_modulus_0_1_equals_0_0(self):
+        dividend = decimal.Decimal('0.5')
+        divisor = decimal.Decimal('0.1')
+        remainder = dividend % divisor
+        self.assertEqual(0.0, remainder)
+
+    def test_negative59_modulus_62_equals_3(self):
+        dividend = -59
+        divisor = 62
+        remainder = dividend % divisor
+        self.assertEqual(3, remainder)

@@ -6,10 +6,9 @@
 print("hello world")
 
 
-import decimal
 
-print(decimal.Decimal('0.5') % decimal.Decimal('0.1'))
-print(-59 % 62)  # == 1
+
+
 
 
 def get_n_digit(my_number, n):
