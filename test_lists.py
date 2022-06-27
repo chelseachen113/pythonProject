@@ -1,10 +1,6 @@
 from unittest import TestCase
 
 
-# Methods can go up here
-
-
-# Tests can go down here
 class TestLists(TestCase):
 
     def test_is_dog_in_our_list_after_removing_doge_equals_false(self):
