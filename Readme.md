@@ -26,7 +26,7 @@ string - str_
 integer - int_  
 float - flt_  
 list - lst_  
-boolean - bool_  
+boolean - bool_is_  
 dict - dict_  
 tuple - tpl_  
 range - rng_  

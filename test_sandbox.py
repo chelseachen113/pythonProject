@@ -12,9 +12,14 @@ class TestSandbox(TestCase):
         self.assertEqual(2, int_number)
 
 
-    # 3 Write a test that:
+    # Write a test that:
     # 1. creates a list variable with 4 items
     # 2. store the length of the list to an integer variable
     # 3. asserts the second integer variable is 4
 
 
+
+
+    # Write a test that:
+    # 1. creates a boolean variable to check if 3 is greater than 4
+    # 2. assert that the boolean variable is False
