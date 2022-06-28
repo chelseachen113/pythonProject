@@ -27,7 +27,7 @@ integer - int_
 float - flt_  
 list - lst_  
 boolean - bool_is_  
-dict - dict_  
+dict - dict_%keys%_to_%values%  
 tuple - tpl_  
 range - rng_  
 #### Data Types
@@ -39,7 +39,7 @@ https://realpython.com/python-data-types/
 
 ### Test Naming
 1. Follow format below
-2. def test_scenario_equals_value
+2. def test_%scenario%_equals_%value%
 3. example: def test_x_equals_seven
 
 ### Assertion Format
