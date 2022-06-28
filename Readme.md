@@ -9,7 +9,7 @@ This is Chelsea's python project for exploration
 2. Cleanup test_sandbox according to coding standards
 3. Make sure all tests pass in the test_sandbox
 4. Move all functions and tests from test_sandbox into sensibly named files
-
+5. Delete all functions and tests from the test_sandbox that were moved in step 4
 
 
 
@@ -17,9 +17,9 @@ This is Chelsea's python project for exploration
 
 ### Variable Naming
 1. start with lowercase letter, use _ in between words
-2. Useful words and avoid abbreviation
-3. use the modified hungarian notation below
-4. 
+2. use useful words that describe what is inside the variable
+3. avoid abbreviation
+4. use the modified hungarian notation below
 ##### Modified hungarian notation
 https://en.wikipedia.org/wiki/Hungarian_notation  
 string - str_  
