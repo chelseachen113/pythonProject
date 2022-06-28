@@ -36,3 +36,12 @@ class TestLists(TestCase):
                 bool_is_doge_in_list = True
                 break
         self.assertEqual(True, bool_is_doge_in_list)
+     # Write a test that:
+     # 1. creates a list variable with 4 items
+     # 2. store the length of the list to an integer variable
+    # 3. asserts the second integer variable is 4
+
+    def test_length_of_list_with_four_items_equals_four(self):
+        lst_four = ["item1", "item2", "item3", "item4"]
+        int_length_lst = len( lst_four )
+        self.assertEqual( 4, int_length_lst )
