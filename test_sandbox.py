@@ -17,7 +17,10 @@ class TestSandbox(TestCase):
     # 2. store the length of the list to an integer variable
     # 3. asserts the second integer variable is 4
 
-
+    def test_list_one_with_four_items(self):
+        my_list = ["item1", "item2", "item3", "item4"]
+        length_list = len(my_list)
+        self.assertEqual(4, length_list)
 
 
     # Write a test that:
