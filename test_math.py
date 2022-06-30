@@ -54,3 +54,9 @@ class TestMath(TestCase):
         int_five = 5
         int_total = (int_five * int_nine)
         self.assertEqual( 45, int_total )
+
+    def test_int_dividend_divided_by_divisor_equals_thirty(self):
+        int_dividend = 270
+        int_divisor = 9
+        int_quotient = int_dividend / int_divisor
+        self.assertEqual( 30, int_quotient )

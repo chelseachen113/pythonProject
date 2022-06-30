@@ -21,3 +21,8 @@ class TestStrings(TestCase):
         str_doge = "doge"
         str_result = str_doge[1]
         self.assertEqual("o", str_result)
+
+    def test_str_length_of_quote_equals_7(self):
+        str_quote = "python"
+        str_total = len( str_quote )
+        self.assertEqual( 6, str_total )
